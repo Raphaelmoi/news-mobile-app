@@ -1,0 +1,7 @@
+{
+  "name": "SuperNews",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

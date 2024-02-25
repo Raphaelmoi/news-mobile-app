@@ -1,0 +1,48 @@
+
+.button {
+    display: flex;
+    padding: 4px 16px;
+    background: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+    text-decoration: none;
+    border-radius: var(--radius);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.m-1 {
+    margin: var(--basePX);
+}
+.m-2 {
+    margin: calc( var(--basePX) * 2 );
+}
+.mv-1 {
+    margin: var(--basePX) 0;
+}
+.mv-2 {
+    margin: calc( var(--basePX) * 2 ) 0;
+}
+.mh-1 {
+    margin: 0 var(--basePX);
+}
+.mh-2 {
+    margin: 0 calc( var(--basePX) * 2 );
+}
+.mr-1 {
+    margin-right: var(--basePX);
+}
+.mr-2 {
+    margin-right: calc( var(--basePX) * 2 );
+}
+.ml-1 {
+    margin-left: var(--basePX);
+}
+.ml-2 {
+    margin-left: calc( var(--basePX) * 2 );
+}
